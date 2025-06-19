@@ -8,12 +8,12 @@
 ```
 /                # 프로젝트 루트
 ├─ notebooks/    # Jupyter 노트북
-│   ├─ 변수정리.ipynb                          # 변수 데이터 정리
-|   ├─ train_kcelectra_kote.ipynb
+│   ├─ data preprocessing.ipynb                           # 데이터 전처리
+|   ├─ model_training.ipynb                               # 모델 학습 및 최적화
+|   ├─ data_visualization.ipynb                           # 데이터 시각화
 |   └─ bicycle_rental_n_return
-|      └─merge_bike_year_data.ipynb
-│   ├─ 	data_visualization.ipynb              # 데이터 시각화 
-│   └─ bikemodel_selection_for_demand.ipynb   # 모델 학습
+|      └─month_merge.ipynb                                # 일일 사용량을 월별로 합산 및 전처리
+|      └─data_conversion_for_month_merge.ipynb            # month_merge에 사용할 main 파일 생성
 └─ README.md     # 이 파일
 ```
 ---
