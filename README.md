@@ -9,8 +9,8 @@
 /                # 프로젝트 루트
 ├─ notebooks/    # Jupyter 노트북
 │   ├─ data preprocessing.ipynb                           # 데이터 전처리
-|   ├─ model_training.ipynb                               # 모델 학습 및 최적화
 |   ├─ data_visualization.ipynb                           # 데이터 시각화
+|   ├─ model_training.ipynb                               # 모델 학습 및 최적화
 |   └─ bicycle_rental_n_return
 |      └─month_merge.ipynb                                # 일일 사용량을 월별로 합산 및 전처리
 |      └─data_conversion_for_month_merge.ipynb            # month_merge에 사용할 main 파일 생성
@@ -19,6 +19,13 @@
 ---
 
 ## 📝 노트북 설명
+
+-**data preprocessing.ipynb**
+
+-**data_visualization.ipynb**
+전처리한 데이터셋을 사용하여 월별 사용량 추이, 총_사용인원 기준 변수 상관관계 파악, 랜덤포레스트 기반 변수 중요도 파악, 변수 중요도 기반 입지 평가하여 folium함. 이를 통해 인사이트를 추출함.
+
+-**model_traingin.ipynb**
 
 ---
 
