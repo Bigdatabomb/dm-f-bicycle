@@ -9,8 +9,8 @@
 /                # 프로젝트 루트
 ├─ notebooks/    # Jupyter 노트북
 │   ├─ emotion_anomaly_detection.ipynb   # 변수 데이터 정리
-│   ├─ 데이터시각화&인사이트.ipynb # 데이터 시각화 
-│   └─ train_kcelectra_kote.ipynb        # 모델 학습
+│   ├─ 데이터시각화&인사이트.ipynb         # 데이터 시각화 
+│   └─ 따릉이 수요예측 모델 선정.ipynb     # 모델 학습
 └─ README.md     # 이 파일
 ```
 ---
