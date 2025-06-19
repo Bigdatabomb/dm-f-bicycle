@@ -25,7 +25,7 @@
 -**data_visualization.ipynb**
 전처리한 데이터셋을 사용하여 월별 사용량 추이, 총_사용인원 기준 변수 상관관계 파악, 랜덤포레스트 기반 변수 중요도 파악, 변수 중요도 기반 입지 평가하여 folium함. 이를 통해 인사이트를 추출함.
 
--**model_trainging.ipynb**
+-**model_training.ipynb**
 
 ---
 
