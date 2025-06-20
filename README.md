@@ -10,7 +10,7 @@
 /                # 프로젝트 루트
 ├─ notebooks/    # Jupyter 노트북
 │   ├─ data preprocessing.ipynb                           # 데이터 전처리
-|   ├─ data_visualization.ipynb                        # 데이터 시각화
+|   ├─ data_visualization.ipynb                           # 데이터 시각화
 |   ├─ model_training.ipynb                               # 모델 학습 및 최적화
 |   └─ bicycle_rental_n_return
 |      └─month_merge.ipynb                                # 일일 사용량을 월별로 합산 및 전처리
