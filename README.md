@@ -10,7 +10,7 @@
 /                # 프로젝트 루트
 ├─ notebooks/    # Jupyter 노트북
 │   ├─ data preprocessing.ipynb                           # 데이터 전처리
-|   ├─ data_visualization(1).ipynb                        # 데이터 시각화
+|   ├─ data_visualization.ipynb                        # 데이터 시각화
 |   ├─ model_training.ipynb                               # 모델 학습 및 최적화
 |   └─ bicycle_rental_n_return
 |      └─month_merge.ipynb                                # 일일 사용량을 월별로 합산 및 전처리
@@ -73,7 +73,7 @@ zip 파일 속 csv 파일들은 정확히 bicycle_rental_n_return 폴더 안에 
 -**data preprocessing.ipynb**  
 여러 출처(예:열린데이터광장)에서 수집한 데이터를 통합, 분석 및 예측을 위한 맞춤형 변수 생성, 결측치 처리 및 형식 정리하여 전처리한 데이터 셋.
 
--**data_visualization(1).ipynb**  
+-**data_visualization.ipynb**  
 전처리한 데이터셋을 사용하여 월별 사용량 추이, 총_사용인원 기준 변수 상관관계 파악, 랜덤포레스트 기반 변수 중요도 파악, 변수 중요도 기반 입지 평가하여 folium함. 이를 통해 인사이트를 추출함.
 
 -**model_training.ipynb**  
