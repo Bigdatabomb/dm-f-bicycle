@@ -22,47 +22,47 @@
 
 24년도 1월부터 12월까지의 따릉이 대여소 이용 기록에 관한 데이터는 구글 드라이브에 zip파일로 업로드 하였습니다.
 - [2024년 따릉이 데이터](https://drive.google.com/uc?export=download&id=1WltLqTxbn-VHw8ki3tn-yQn1B-mpHn2R)
-해당 zip 파일은 bicycle_rental_n_return 안에서 압축해제 하여야 합니다.
+- 해당 zip 파일은 bicycle_rental_n_return 안에서 압축해제 하여야 합니다.
 - zip 파일 속 csv 파일들은 정확히 bicycle_rental_n_return 폴더 안에 있어야 하며, 다른 폴더 안에 있으면 오류가 생깁니다.
 - 24년 11월 27일 데이터의 경우 누락되어 삭제하였습니다.
 
--**bike_accident_data.csv**
+-**bike_accident_data.csv**  
 자전거 사고 현황에 관한 데이터
 
--**bike_lane_data.csv**
+-**bike_lane_data.csv**  
 자전거 도로 정보에 관한 데이터
 
--**bike_rental_master.csv**
+-**bike_rental_master.csv**  
 따릉이 대여소에 대한 마스터 데이터
 
--**bike_shed_location.csv**
+-**bike_shed_location.csv**  
 자전거 보관소 위치에 관한 데이터
 
--**bus_stop_location.csv**
+-**bus_stop_location.csv**  
 버스 정류장 위치에 관한 데이터
 
--**college_data.csv**
+-**college_data.csv**  
 대학교 위치에 관한 데이터
 
--**crossroad_data.csv**
+-**crossroad_data.csv**  
 교차로 위치에 관한 데이터
 
--**dong_data.csv**
+-**dong_data.csv**  
 대여소id별로 해당하는 주소지의 '동'을 합산한 데이터
 
--**diner_location_data.csv**
+-**diner_location_data.csv**  
 휴계음식점 위치에 관한 데이터
 
--**high_school_data.csv**
+-**high_school_data.csv**  
 고등학교 위치에 관한 데이터
 
--**subway_station_location.csv**
+-**subway_station_location.csv**  
 지하철역 위치에 관한 데이터
 
--**tourist_attraction_location.csv**
+-**tourist_attraction_location.csv**  
 관광지 위치에 관한 데이터
 
--**2024 Rain Data.csv**
+-**2024 Rain Data.csv**  
 24년도 강수량 데이터
 
 ---
@@ -80,6 +80,7 @@ Linear Regression, RandomForest Regressgion, XGBoost Regression, Lasso Regresssi
 
 
 - 참고사항
+
 kakao api를 사용한 코드의 경우, 학생 개인의 api 키가 노출되어 보안상의 문제로 포함하지 않았습니다.
 또한, geopy를 사용한 코드의 경우, 오류나 블록되는 경우가 너무 많이 발생하여 kakao api를 사용하는 코드로 모두 변경하였습니다.
 
