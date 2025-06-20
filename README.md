@@ -69,13 +69,13 @@
 
 ## 📝 노트북 설명
 
--**data preprocessing.ipynb**
+-**data preprocessing.ipynb**  
 여러 출처(예:열린데이터광장)에서 수집한 데이터를 통합, 분석 및 예측을 위한 맞춤형 변수 생성, 결측치 처리 및 형식 정리하여 전처리한 데이터 셋.
 
--**data_visualization.ipynb**
+-**data_visualization.ipynb**  
 전처리한 데이터셋을 사용하여 월별 사용량 추이, 총_사용인원 기준 변수 상관관계 파악, 랜덤포레스트 기반 변수 중요도 파악, 변수 중요도 기반 입지 평가하여 folium함. 이를 통해 인사이트를 추출함.
 
--**model_training.ipynb**
+-**model_training.ipynb**  
 Linear Regression, RandomForest Regressgion, XGBoost Regression, Lasso Regresssion, Ridge Regression, ElasticNet, KNN Regression 모델 간 학습 비교를 통해 최적의 모델 선정함.
 
 
