@@ -87,7 +87,7 @@ kakao api를 사용한 코드의 경우, 학생 개인의 api 키가 노출되�
 ---
 
 ## ⚙️ 실행 환경 및 주요 라이브러리
-tfenv(Python 3.10.16)
+tfenv(Python 3.10.16)  
 pandas, numpy, scikit-learn, matplotlib, os, xgboost
 
 ---
