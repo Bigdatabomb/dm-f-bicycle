@@ -22,7 +22,7 @@
 ## 📁 사용 데이터셋
 
 24년도 1월부터 12월까지의 따릉이 대여소 이용 기록에 관한 데이터는 구글 드라이브에 zip파일로 업로드 하였습니다.
-- [2024년 따릉이 데이터](https://drive.google.com/uc?export=download&id=1WltLqTxbn-VHw8ki3tn-yQn1B-mpHn2R)  
+- [tpss_bcycl_od_statnhm_2024 데이터 다운로드](https://drive.google.com/uc?export=download&id=1Dxwd7K7SBaDF-O1gyHU9aJgTjzcf8PuP)
 해당 zip 파일은 bicycle_rental_n_return 안에서 압축해제 하여야 합니다.  
 zip 파일 속 csv 파일들은 정확히 bicycle_rental_n_return 폴더 안에 있어야 하며, 다른 폴더 안에 있으면 오류가 생깁니다.  
 24년 11월 27일 데이터의 경우 누락되어 삭제하였습니다.  
