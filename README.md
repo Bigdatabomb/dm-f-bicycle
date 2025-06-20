@@ -1,6 +1,6 @@
 # 프로젝트: 서울시 따릉이 이용 패턴 및 예측 모델을 통한 입지 평가
 이 저장소에는 따릉이 수요 예측 및 입지 분석에 필요한 변수들의 전처리 데이터셋, 시각화, 모델 학습 및 최적화를 위한 ipynb 파일이 포함되어 있습니다.   
-사용한 데이터(예: 열린데이터광장) 파일은 용량이 크므로 아래 Google Drive 링크에서 다운로드하여 사용하세요.
+사용한 데이터(예: 열린데이터광장) 일부 파일은 용량이 크므로 아래 Google Drive 링크에서 다운로드하여 사용하세요.
 
 ---
 
@@ -90,7 +90,7 @@ kakao api를 사용한 코드의 경우, 학생 개인의 api 키가 노출되�
 
 ## ⚙️ 실행 환경 및 주요 라이브러리
 VS CODE로 실행해야 오류가 발생하지 않음  
-base(Python 3.9.13) 이상 
-pandas, numpy, scikit-learn, matplotlib, seaborn, folium, os, xgboost, requests
+- base(Python 3.9.13) 이상 
+- pandas, numpy, scikit-learn, matplotlib, seaborn, folium, os, xgboost, requests
 
 ---
