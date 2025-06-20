@@ -81,7 +81,7 @@ Linear Regression, RandomForest Regressgion, XGBoost Regression, Lasso Regresssi
 
 - 참고사항
 
-kakao api를 사용한 코드의 경우, 학생 개인의 api 키가 노출되어 보안상의 문제로 포함하지 않았습니다.
+kakao api를 사용한 코드의 경우, 학생 개인의 api 키가 노출되어 보안상의 문제로 포함하지 않았습니다.  
 또한, geopy를 사용한 코드의 경우, 오류나 블록되는 경우가 너무 많이 발생하여 kakao api를 사용하는 코드로 모두 변경하였습니다.
 
 ---
