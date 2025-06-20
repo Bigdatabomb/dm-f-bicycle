@@ -77,8 +77,9 @@ zip 파일 속 csv 파일들은 정확히 bicycle_rental_n_return 폴더 안에 
 전처리한 데이터셋을 사용하여 월별 사용량 추이, 총_사용인원 기준 변수 상관관계 파악, 랜덤포레스트 기반 변수 중요도 파악, 변수 중요도 기반 입지 평가하여 folium함. 이를 통해 인사이트를 추출함.
 
 -**model_training.ipynb**  
-Linear Regression, RandomForest Regressgion, XGBoost Regression, Lasso Regresssion, Ridge Regression, ElasticNet, KNN Regression 모델 간 학습 비교를 통해 최적의 모델 선정함.
+Linear Regression, RandomForest Regressgion, XGBoost Regression, Lasso Regresssion, Ridge Regression, ElasticNet, KNN Regression 모델 간 학습 비교를 통해 최적의 모델 선정함.  
 
+순서 : data_conversion_for_month_merge, month_merge, data preprocessing, model_training, data_visualization  
 
 - 참고사항
 
@@ -88,7 +89,7 @@ kakao api를 사용한 코드의 경우, 학생 개인의 api 키가 노출되�
 ---
 
 ## ⚙️ 실행 환경 및 주요 라이브러리
-VS CODE로 실행해야 오류가 발생하지 않음
+VS CODE로 실행해야 오류가 발생하지 않음  
 base(Python 3.9.13) 이상 
 pandas, numpy, scikit-learn, matplotlib, seaborn, folium, os, xgboost, requests
 
